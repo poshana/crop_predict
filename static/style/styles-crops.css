@@ -1,0 +1,214 @@
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+a,
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-image: url(images/Orange\ and\ Green\ Light\ Watercolor\ Background\ Christian\ Desktop\ Wallpaper.png);
+}
+
+.tm-header {
+  background: #84D2C5;
+  height: 80px;
+  position: relative;
+  z-index: 100;
+  margin-top: -30px;
+  width: 100%;
+  /* margin-top: 30px; */
+}
+
+.tm-site-name-container {
+  /* padding-top: 10px; */
+}
+
+.tm-site-name {
+  color: #11416b;
+  font-size: 27px;
+  font-weight: 400;
+  text-transform: uppercase;
+  float: left;
+}
+
+.tm-site-name:hover,
+.tm-site-name:focus {
+  font-weight: bold;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.tm-nav {
+  display: block;
+  overflow: hidden;
+  margin-top: -18.8px;
+}
+
+.tm-nav li {
+  list-style: none;
+  float: left;
+  margin-top: -40px;
+}
+
+.tm-nav li a {
+  color: #000000;
+  display: block;
+  padding: 35px 24px 5px 15px;
+  margin-left: -10px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  /* margin-top: -30px; */
+}
+
+.tm-nav li a.active,
+.tm-nav li a:focus,
+.tm-nav li a:hover {
+  background: #6096B4;
+  color: #000;
+  text-decoration: none;
+}
+
+div.polaroid {
+  margin-top: 50px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 336px;
+  background-color: aliceblue;
+  margin-bottom: 0px;
+  padding: 19px 19px 85px 19px;
+}
+
+div.container {
+  font-family: cursive;
+  color: rgb(6, 191, 98);
+  position: relative;
+  text-align: center;
+  padding: 19px 19px 19px 19px;
+}
+
+.image {
+  height: 100vh;
+  width: 100%;
+  margin-top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 3rem; */
+}
+
+.logo {
+  border: 10px;
+  margin-left: 30px;
+  border-color: rgb(200, 97, 97);
+  border-radius: 50rem;
+  width: 6%;
+  display: inline;
+
+}
+
+.heading {
+  display: block;
+  margin-top: 10px;
+  color: rgb(138, 56, 56);
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font: size 10px;
+
+}
+
+.LOGO-NAME {
+  font-size: 25px;
+  color: rgb(234, 234, 187);
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+button {
+  display: inline;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: solid 1.5px;
+  border-color: rgb(13, 146, 37);
+  background-color: white;
+  color: rgb(13, 146, 37);
+  margin-left: 30px;
+  font-family: cursive;
+
+}
+
+button:hover {
+  transition: opacity 8ms;
+  opacity: 0.8;
+}
+
+button:active {
+  background-color: rgb(13, 146, 37);
+  transition: background-color 0.8ms;
+  color: white;
+}
+
+.buttonimg {
+  width: 25%;
+  margin-left: 5px;
+}
+
+.Steps {
+  display: inline-block;
+  text-align: justify;
+  margin-left: 10px;
+  height: 40px;
+  color: rgb(4, 110, 24);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: cursive;
+  text-align: left;
+
+}
+
+.text {
+  margin-top: 50px;
+}

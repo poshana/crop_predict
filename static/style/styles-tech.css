@@ -1,0 +1,126 @@
+
+
+h1{
+  color: aliceblue;
+  text-align: center;
+}
+.LOGO-NAME{
+font-size: 25px;
+color: rgb(234, 234, 187);
+}
+nav ul{
+float: right;
+margin-right: 20px;
+}
+
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin:0 5px;
+}
+
+.logo{
+border: 10px;
+margin-left:30px;
+border-color: rgb(200, 97, 97);
+border-radius: 50rem;
+width: 6%;
+display: inline;
+}
+
+nav{
+margin-top: 30px;
+background-color:  rgb(107, 6, 102);
+height: 100px;
+width: 100%;
+margin-bottom: 20px;
+border-radius: 20px;
+}
+nav ul li a{
+color: aliceblue;
+font-size: 17px;
+text-decoration: none;
+}
+
+div.polaroid{
+margin-top: 50px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+height: 250px;
+width: 336px;
+background-color: aliceblue;
+margin-bottom: 0px;
+padding: 19px 19px 85px 19px;
+}
+
+div.container{
+font-family: cursive;
+color: rgb(6, 191, 98);
+position: relative;
+text-align: center;
+padding: 19px 19px 85px 19px;
+}
+.image{
+height: 100vh;
+width: 100%;
+margin-top: 30px;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: 2px;
+margin-right: 2px;
+border-radius: 3rem;
+}
+.Steps{
+display: inline-block;
+text-align: justify;
+margin-left: 10px;
+height: 40px ;
+color: rgb(237, 72, 231);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+
+background-color: rgb(255, 255, 255);
+margin: auto;
+height: 100vh;
+width: 100%;
+background-attachment: fixed;
+}
+button{
+display: inline;
+height: 40px;
+width: 100px;
+border-radius: 10px;
+border: solid 1.5px;
+border-color:rgb(13, 146, 37) ;
+background-color:white;
+color: rgb(13, 146, 37);
+margin-left: 30px;
+font-family:cursive ;
+
+}
+button:hover{
+transition:opacity 8ms;
+opacity: 0.8;
+}
+button:active{
+background-color:rgb(13, 146, 37)  ;
+transition: background-color 0.8ms;
+color: white;
+}
+.buttonimg{
+width: 25%;
+margin-left: 5px;
+}
+p{
+margin-top: 20px;
+margin-left: 20px;
+font-family: cursive;
+text-align: left;
+
+}
+.text{
+margin-top: 50px;
+}
+
